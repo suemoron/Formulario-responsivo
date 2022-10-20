@@ -1,0 +1,93 @@
+*{
+ margin:0;
+ padding:0;
+}
+html{
+	background: linear-gradient(#002be9, #97fcf7);
+}
+form{
+	width: 100%;
+	max-width: 600px;
+	margin: 35px auto ; 
+	text-align: center;
+	background-color: rgb(21, 9, 87);
+	border: 5px solid  rgb(249, 251, 255);
+	border-radius: 50px 50px;
+}
+form fieldset{
+	padding: 20px 40px;
+	border: none;
+	height: 80%;
+}
+form legend{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+}
+form input[type=text]{
+	font-family: tahoma;
+	display: inline-block;
+	margin-top:30px;
+	width: 79%;
+	padding: 10px 13px;
+	border:3px solid rgb(255, 255, 255);
+	background-color:rgb(122, 161, 219);
+}
+form ::-webkit-input-placeholder{
+	color: white;
+}
+form input[type=text]:focus, form select:focus, form textarea:focus{
+	outline: 0;
+}
+form select{
+	font-family: tahoma;
+	color:rgb(255, 251, 251);
+	width:calc(80% + 26px);
+	margin-top:30px;
+	padding: 10px 13px;
+	display: inline-block;
+	border:3px solid rgb(255, 255, 255);
+	background-color: rgb(122, 161, 219);
+}
+form h2{
+	margin-top:20px;
+	color: rgb(255, 255, 255);
+}
+.input{
+	display: inline-block;
+	text-align: left;
+	margin-top:20px;
+	color: rgb(255, 255, 255);
+	font-size: 20px; 
+}
+.input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(194, 189, 189);
+}
+form textarea{
+	font-family: tahoma;
+	margin-top:30px;
+	width: 80%;
+	height: 140px;
+	padding: 10px 13px;
+	resize: none;
+	background-color: rgb(8, 15, 41);
+	border: 3px solid black;
+	color: white;
+	font-size: 14px;
+	border-radius: 10px 10px;
+}
+form input[type=submit]{
+	margin-top:30px;
+	border:0;
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	border:3px solid rgb(255, 255, 255);
+	color:rgb(255, 255, 255);
+	background-color: rgb(100, 124, 190);
+	border-radius: 15px 15px;
+}
